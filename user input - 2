@@ -1,0 +1,23 @@
+get input for 3 variables:name,mark,department.
+let the user enter the score for 100 marks ,
+you convert it for 10 and print it,
+
+
+public class demo1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name = scan.nextLine();
+        
+        System.out.println("Enter your mark:");
+        int mark = scan.nextInt();
+        scan.nextLine();
+
+        System.out.println("Enter your department:");
+        String department = scan.nextLine();
+
+        System.out.println("My name is" + " "+ name +".");
+        System.out.println("My mark is" + " "+ mark/10 +".");
+        System.out.println("My department is" +" "+  department +".");
+    }
+    
