@@ -1,0 +1,54 @@
+1.check whether two number is equal or not:
+
+public class demo3 {
+    public static void main(String[] args) {
+        
+    int num1 = 70;
+    int num2 = 70;
+    if (num1 == num2){
+        System.out.print("Both numbers are equal");
+    }
+    else{
+        System.out.print("Both numbers are not equal");
+    }
+    
+}
+}
+
+2.we have  two numbers 
+num1 = 40,
+num2 = 50
+check num1 is greater or num2 is greater:
+
+class demo{
+
+public static void main(String args[]){
+int num1= 70;
+int num2 = 20;
+if(num1 > num2){
+System.out.print("Number1 is greater");
+}
+else{
+System.out.print("Number2 is graeter");
+}
+}
+}
+
+
+3.check whether two number is equal or not,using use input methd:
+
+import java.util.Scanner;
+public class s1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        if(num1 == num2){
+            System.out.print("Both the numbers are equal");
+        }
+        else{
+            System.out.print("Both the numbers are not equal");
+        }
+    }
+    
+}
