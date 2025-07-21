@@ -1,0 +1,11 @@
+public class q3{
+public static void main (String agrs []){
+boolean rain = true;
+if(rain){
+System.out.print("Take an umbrella");
+}
+else{
+System.out.print("Enjoy the sunlight");
+}
+}
+}
