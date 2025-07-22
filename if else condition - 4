@@ -18,7 +18,7 @@ System.out.print("FAIL");
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-2.Get input for a number and check whether it is divisible by both 3 and 5 or not .if yes then print ,the number is divisible by 3 and 5 .print the number is not divisible by 3 and 5.
+
 
 
 
