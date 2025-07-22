@@ -17,3 +17,41 @@ public class Hello2 {
     
 }
 }
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.
+public class Hello1 {
+    public static void main(String[] args) {
+        boolean icecream= true;
+        boolean hungry = true;
+        if(icecream && hungry){
+            System.out.print("EAT");
+        }
+        else{
+            System.out.print("DONT EAT");
+        }
+      
+    }
+    
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.
+
+public class Hello1 {
+    public static void main(String[] args) {
+        boolean cricket= true;
+        boolean football = true;
+        if(cricket || football){
+            System.out.print("PLAY");
+        }
+        else{
+            System.out.print("DONT PLAY");
+        }
+      
+    }
+    
+}
+
