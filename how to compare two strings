@@ -1,0 +1,22 @@
+1.import java.util.Scanner;
+public class demo{
+public static void main (String args []){
+  String f1 = new String("Apple");
+String f2 = new String("Apple");
+System.out.print(f1.equals(f2));
+}
+}
+
+2.import java.util.Scanner;
+public class demo{
+public static void main (String args []){
+  String a = "one";
+String b = "one";
+if(a.equals(b)){
+  System.out.print("Equal");
+}
+  else{
+    System.out.print("Not Equal");
+}
+}
+}
