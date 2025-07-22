@@ -1,0 +1,62 @@
+1.public class hello{
+public static void main(String args[]){
+String a  = "one";
+String b = "one";
+String c = b;
+System.out.print(a == c);
+}
+}
+
+-------------------------------------------------------------------------.
+
+2.public class hello{
+public static void main(String args[]){
+String a  = "one";
+String b = new String("one");
+String c = b;
+System.out.print(a == c);
+}
+}
+
+-------------------------------------------------------------------------.
+
+3.get a input from user , for the variable called RCB.
+if RCB == WIN print ("Ee sala cup namdhey"),
+if RCB == LOOSE print ("No cup").
+
+import java.util.Scanner;
+public class demo{
+public static void main(String args[]){
+Scanner scan = new Scanner(System.in);
+String RCB = scan.nextLine();
+if(RCB.equals("WIN")){
+System.out.print("Ee sala cup namdhey");
+}
+else{
+System.out.print("No cup");
+}
+}
+}
+
+-----------------------------------------------------------------------.
+
+4.Get a input from user ,for the variable called meghna.
+if meghna is "dead" print ("Surya meets Ramya")
+else print ("Suyra weds meghna").
+import java.util.Scanner;
+
+public class Demo {
+    public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter Meghna's status: ");
+        String meghna = scan.nextLine();
+
+        if (meghna.equals("dead")) {
+            System.out.print("Surya meets Ramya");
+        } else {
+            System.out.print("Surya weds Meghna");
+        }
+
+        scan.close(); 
+    }
+}
