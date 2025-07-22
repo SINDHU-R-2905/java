@@ -1,0 +1,50 @@
+1.get input for variable mark.if mark > 35 print pass ,else print fail.
+
+import java.util.Scanner;
+public class Demo{
+public static void main(String args[]){
+int mark = 35;
+if(mark > 35){
+System.out.print("pass");
+}
+else{
+System.out.print("fail");
+}
+}
+}
+-----------------------------------------------------------------.
+                           (or)
+
+2.using user input method:
+
+import java.util.Scanner;
+public class Demo{
+public static void main(String args []){
+Scanner scan = new Scanner(System.in);
+int mark = scan.nextInt();
+if(mark > 35){
+System.out.print("PASS");
+}
+else{
+System.out.print("FAIL");
+}
+}
+}
+
+--------------------------------------------------------------------.
+
+3.get input variable income .if income is greater the 7000 scholarship is available.else not eligible for scholarship.
+
+import java.util.Scanner;
+public class Demo{
+public static void main(String args[]){
+Scanner scan = new Scanner(System.in);
+int income = scan.nextInt();
+if(income > 7000){
+System.out.print("scholarship is available");
+}
+else{
+System.out.print("not eligible for scholarship");
+}
+}
+}
