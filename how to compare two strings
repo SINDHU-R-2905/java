@@ -20,3 +20,28 @@ if(a.equals(b)){
 }
 }
 }
+
+3.what is the colour of the traffic light?
+if the answer is  "red",print "stop",
+if thge answer is "yellow",print "get ready",
+if the answer is "green" , print "go".
+
+
+import java.util.Scanner;
+
+public class k3 {
+    public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      String color = scan.nextLine();
+        if (color.equals("red")){
+            System.out.println("STOP");
+        }
+        if(color.equals("yellow")){
+            System.out.println("GET READY");
+            if(color.equals("green")){
+                System.out.println("GO");
+            }
+        }
+
+    }
+    }
