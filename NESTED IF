@@ -1,0 +1,22 @@
+1.I will go only KFC ,
+I will eat only chicken,
+i will have only pepsi along with chicken.
+
+public class s4 {
+    public static void main(String args[]) {
+        
+        boolean KFC = true;
+        boolean chicken = true;
+        boolean pepsi = true;
+
+        if(KFC){
+            System.out.println("Enter into KFC");
+        }
+        if(chicken){
+            System.out.println("Eating chicken");
+            if(pepsi){
+                System.out.println("Drinking pepsi");
+            }
+        }
+    }
+}
