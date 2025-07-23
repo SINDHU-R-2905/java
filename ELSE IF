@@ -1,0 +1,26 @@
+1.I can get videogame if i score > 35,
+I can get iphone if i score > 60,
+I can get macbook pro if i score >90.
+
+
+public class m1 {
+    public static void main (String args[]){
+        
+            int score = 66;
+            if(score > 35){
+                System.out.println("Get Videogame");
+            }
+            else if(score > 60){
+                System.out.println("Get Iphone");
+            }
+            else if(score > 90){
+                System.out.println("Macbook Pro");
+            }
+            else{
+                System.out.println("Go and study well");
+            }
+            
+        }
+    }
+
+    
