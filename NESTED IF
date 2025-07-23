@@ -20,3 +20,29 @@ public class s4 {
         }
     }
 }
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2.what is the color of the traffic light?
+if the answer is "red" ,print "stop",
+if the answer is "yellow" , print "get ready",
+if the answer is "green" , print "go".
+
+public class k3 {
+    public static void main(String[] args) {
+        boolean red = false;
+        boolean yellow = false;
+        boolean green = true;
+        if(red){
+            System.out.println("STOP");
+        }
+        if(yellow){
+            System.out.println("GET READY");
+          
+         if(green){
+            System.out.println("GO");
+        }
+        
+    }
+    }
