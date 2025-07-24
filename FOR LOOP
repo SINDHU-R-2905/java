@@ -1,0 +1,129 @@
+1.count the even number from 1 to 10.
+
+public class OddCounter {
+    public static void main(String[] args) {
+        int count = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 == 0) {
+                count++;
+                 System.out.println("Even number"+i);
+            }
+        }
+        
+
+        System.out.println("Number of even numbers from 1 to 10: " + count);
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+2.count the odd number from 1 to 10.
+
+public class OddCounter {
+    public static void main(String[] args) {
+        int count = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 != 0) {
+                count++;
+                 System.out.println("odd number"+i);
+            }
+        }
+        
+
+        System.out.println("Number of odd numbers from 1 to 10: " + count);
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+3.print even number between 1 to 10 using for loop and if else.
+
+public class demo{
+public static void main(String args []){
+for(int i=1;i<=10;i=i+1){
+if(i%2 == 0){
+System.out.println("Even number:"+i);
+}
+}
+}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+4.get input for variable a and b  print the number from a to b.(input a = 5,b = 10)
+
+public class demo{
+public static void main(String args []){
+for (int i= 5;i<=10;i=i+1){
+System.out.println(i);
+}
+}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                (OR)
+
+using user input method.
+
+import java.util.Scanner;
+public class demo{
+public static void main(String args []){
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter no1 :");
+int a  = scan.nextInt();
+System.out.println("Enter no2:");
+int b = scan.nextInt();
+for(int i = a;i<=b;i=i+1){
+System.out.println(i);
+}
+}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+5.write a program to print the number from 1 to 10.
+
+public class demo{
+public static void main (String args[]){
+for(int i=1;i<=10;i=i+1){
+System.out.println(i);
+}
+}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+6.write a program to print the name "JOHN" 10 times.
+
+
+public class demo{
+public static void main (String args[]){
+for(int i=1;i<=10;i=i+1){
+System.out.println("JOHN");
+}
+}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+5.print the number which are divisible by both 3 and 5 ,range 1 to 10.
+
+public class Demo {
+    public static void main(String[] args) {
+        System.out.println("Numbers divisible by both 3 and 5 from 1 to 100:");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+6.
+
+
+                                                  
