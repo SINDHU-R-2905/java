@@ -1,0 +1,27 @@
+1.create a function called sum,send two numbers from main functions and add these numbers using function and print it.(like wise create functions like sub , mul,div).
+
+
+public class store1 {
+    void sum(int num1,int num2){
+        
+        System.out.println(num1+num2);
+        System.out.println("numbers added");
+    }
+    void mul(int num1,int num2){
+       
+        System.out.println(num1*num2);
+        System.out.println("numbers multiplied");
+    }
+    void div(int num1,int num2){
+       
+        System.out.println(num1/num2);
+        System.out.println("numbers divided");
+    }
+    public static void main(String[] args) {
+        store1 obj1 = new store1();
+        obj1.sum(10,20);
+        obj1.mul(10,20);
+        obj1.div(10,20);
+    }
+    
+}
