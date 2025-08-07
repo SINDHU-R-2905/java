@@ -73,3 +73,28 @@ public class Circle {
     }
 }
 
+4.Complete the function uppercase(), to remove all characters other than upper case letters from the given string and do return the string.
+Note:Dont use extra string work inplace:
+
+
+public class Solution {
+    public static String uppercase(String s) {
+        char[] chars = s.toCharArray();
+        int index = 0; 
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] >= 'A' && chars[i] <= 'Z') {
+                chars[index++] = chars[i];
+            }
+        }
+        
+       
+        return new String(chars, 0, index);
+    }
+    
+    public static void main(String[] args) {
+        String test = "AbCdeFG123!";
+        System.out.println(uppercase(test));  
+    }
+}
+
+
