@@ -14,3 +14,25 @@ lass demo{
     }
 
 }
+
+
+2.enter 3 numbers from the user and make a function to print their average:
+
+import java.util.Scanner;
+public class average{
+    public static double calculateaverage(int num1,int num2,int num3){
+        return(num1 + num2 + num3)/3.0;
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter first number:");
+        int num1 = scan.nextInt();
+        System.out.print("Enter second number:");
+        int num2 = scan.nextInt();
+        System.out.print("Enter third number:");
+        int num3 = scan.nextInt();
+        double average = calculateaverage(num1,num2,num3);
+        System.out.print("the average is:" + average);
+    }
+    
+}
